@@ -1,0 +1,9 @@
+1、android中实现view的更新有几种方法？
+
+你知道吗？其实android中实现view的更新有两种方法，一种是invalidate，另一种是postInvalidate，其中前者是在UI线程自身中使用，而后者在非UI线程中使用。
+怎么说呢？Android提供了Invalidate方法实现界面刷新，但是Invalidate不能直接在线程中调用，因为他是违背了单线程 模型：Android UI操作并不是线程安全的，并且这些操作必须在UI线程中调用。 鉴于此，如果要使用invalidate的刷新，那我们就得配合handler的使用，使异步非ui线程转到ui线程中调用，如果要在非ui线程中直接使 用就调用postInvalidate方法即可，这样就省去使用handler的烦恼。
+
+
+2、requestLayout在什么时候用呢？
+
+当view确定自身已经不再适合现有的区域时，该view本身调用这个方法要求parent view（父类的视图）重新调用他的onMeasure onLayout来重新设置自己位置。特别是当view的layoutparameter发生改变，并且它的值还没能应用到view上时，这时候适合调用 这个方法。
