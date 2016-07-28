@@ -1,5 +1,5 @@
 (一) 字体的几个参数 ，以Android API文档定义为准，见下图
-[text_fields](http://)
+[text_fields](https://github.com/LineChen/AndroidNotes/blob/master/Android%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80/pictures/fontmetrics/text_properties.png)
 要点如下：
 1. 基准点是baseline
 2. Ascent是baseline之上至字符最高处的距离
@@ -11,12 +11,12 @@
 **Note**:网上有很多错误的图，如果有疑问，就参看文档，区分对错。
 
 为了帮助理解，我特此搜索了不同的示意图。对照示意图，会很容易理解FontMetrics的参数。
-[pic_1](http://)
-[pic_2](http://)
-[pic_3](http://)
-[pic_4](http://)
-[pic_5](http://)
-[pic_6](http://)
+[pic_1](https://github.com/LineChen/AndroidNotes/blob/master/Android%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80/pictures/fontmetrics/pic_1.png)
+[pic_2](https://github.com/LineChen/AndroidNotes/blob/master/Android%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80/pictures/fontmetrics/pic_2.png)
+[pic_3](https://github.com/LineChen/AndroidNotes/blob/master/Android%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80/pictures/fontmetrics/pic_3.png)
+[pic_4](https://github.com/LineChen/AndroidNotes/blob/master/Android%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80/pictures/fontmetrics/pic_4.png)
+[pic_5](https://github.com/LineChen/AndroidNotes/blob/master/Android%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80/pictures/fontmetrics/pic_5.png)
+[pic_6](https://github.com/LineChen/AndroidNotes/blob/master/Android%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80/pictures/fontmetrics/pic_6.png)
 (二) 测试
  1，测试的代码直接使用网上的代码，因为重复着众多，无所给出原始出处，故不注出。
 我增加了Bitmap作为输出显示，完整代码如下：
