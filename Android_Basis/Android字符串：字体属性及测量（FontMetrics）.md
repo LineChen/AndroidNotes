@@ -114,11 +114,13 @@
  log显示如下：
 
 ![log1](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/log1.png)
+
 **Note1**：注意到各个数值都是整数，这是建立在baseY=100的情况下，去掉baseY,重新运行代码，
 
 log如下：
 
 ![log2](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/log2.png)
+
 **Note2**: 参照线为baseline，即baseline=0的情况下，其他各线的数值。leading = 0,即行间距=0
 
 2，以上是根据paint设置，获取相关的FontMetrics属性，并且只绘制了一行字符串，我们猜想，如果是多行，是否可以获得行间距leanding，代码如下：
@@ -153,6 +155,7 @@ log如下：
 log如下：
 
 ![log3](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/log3.png)
+
 **Note**：显然，即使是多行的情况下，仍不能获得leading。
 
 3，如果text是单行，获得各个属性将会怎样，代码如下：
@@ -184,6 +187,7 @@ log如下：
 log:
 
 ![log4](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/log4.png)
+
 **Note**：与多行获得的属性都相同。
 
 **结论：**
