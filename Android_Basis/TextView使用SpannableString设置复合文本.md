@@ -1,26 +1,26 @@
 TextView通常用来显示普通文本，但是有时候需要对其中某些文本进行样式、事件方面的设置。Android系统通过SpannableString类来对指定文本进行相关处理，具体有以下功能：
 
-1.BackgroundColorSpan 背景色
-2.ClickableSpan 文本可点击，有点击事件
-3.ForegroundColorSpan 文本颜色（前景色）
-4.MaskFilterSpan 修饰效果，如模糊(BlurMaskFilter)、浮雕(EmbossMaskFilter)
-5.MetricAffectingSpan 父类，一般不用
-6.RasterizerSpan 光栅效果
-7.StrikethroughSpan 删除线（中划线）
-8.SuggestionSpan 相当于占位符
-9.UnderlineSpan 下划线
-10.AbsoluteSizeSpan 绝对大小（文本字体）
-11.DynamicDrawableSpan 设置图片，基于文本基线或底部对齐。
-12.ImageSpan 图片
-13.RelativeSizeSpan 相对大小（文本字体）
-14.ReplacementSpan 父类，一般不用
-15.ScaleXSpan 基于x轴缩放
-16.StyleSpan 字体样式：粗体、斜体等
-17.SubscriptSpan 下标（数学公式会用到）
-18.SuperscriptSpan 上标（数学公式会用到）
-19.TextAppearanceSpan 文本外貌（包括字体、大小、样式和颜色）
-20.TypefaceSpan 文本字体
-21.URLSpan 文本超链接
+1. BackgroundColorSpan 背景色
+2. ClickableSpan 文本可点击，有点击事件
+3. ForegroundColorSpan 文本颜色（前景色）
+4. MaskFilterSpan 修饰效果，如模糊(BlurMaskFilter)、浮雕(EmbossMaskFilter)
+5. MetricAffectingSpan 父类，一般不用
+6. RasterizerSpan 光栅效果
+7. StrikethroughSpan 删除线（中划线）
+8. SuggestionSpan 相当于占位符
+9. UnderlineSpan 下划线
+10. AbsoluteSizeSpan 绝对大小（文本字体）
+11. DynamicDrawableSpan 设置图片，基于文本基线或底部对齐。
+12. ImageSpan 图片
+13. RelativeSizeSpan 相对大小（文本字体）
+14. ReplacementSpan 父类，一般不用
+15. ScaleXSpan 基于x轴缩放
+16. StyleSpan 字体样式：粗体、斜体等
+17. SubscriptSpan 下标（数学公式会用到）
+18. SuperscriptSpan 上标（数学公式会用到）
+19. TextAppearanceSpan 文本外貌（包括字体、大小、样式和颜色）
+20. TypefaceSpan 文本字体
+21. URLSpan 文本超链接
 
 
 **1、BackgroundColorSpan 背景色**
