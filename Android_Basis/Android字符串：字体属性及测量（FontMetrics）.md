@@ -14,10 +14,15 @@
 ![pic_1](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/pic_1.png)
 
 ![pic_2](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/pic_2.png)
+
 ![pic_3](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/pic_3.png)
+
 ![pic_4](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/pic_4.png)
+
 ![pic_5](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/pic_5.png)
+
 ![pic_6](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fontmetrics/pic_6.png)
+
 (二) 测试
  1，测试的代码直接使用网上的代码，因为重复着众多，无所给出原始出处，故不注出。
 我增加了Bitmap作为输出显示，完整代码如下：
