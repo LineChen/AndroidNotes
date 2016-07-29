@@ -12,12 +12,14 @@ API5+需要权限
 (How to get the Android device’s primary e-mail address)
 
 **用户手机号**
+
 用户可以更改他们的手机号 （非常不可靠）
 
 需要权限`<uses-permission android:name="android.permission.READ_PHONE_STATE" />`
 
 
 **IMEI**
+
 只有Android手机才有， IMEI号是一串15位的号码，比如像这样 359881030314356
 
 ```java
