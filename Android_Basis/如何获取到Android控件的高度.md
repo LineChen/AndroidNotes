@@ -60,4 +60,3 @@ ViewTreeObserver vto = imageView.getViewTreeObserver();
 
 OK，现在看来，看似简单问题也不是那么简单吧。
 
-以上。
