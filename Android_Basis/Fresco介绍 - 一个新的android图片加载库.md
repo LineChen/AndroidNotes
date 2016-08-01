@@ -39,7 +39,7 @@ Bitmap bitmap = BitmapFactory.decodeByteArray(jpeg, 0, jpeg.length, options);
 
 在移动设备上显示图片需要很多的步骤：
 
-![steps](http://)
+![steps](https://github.com/LineChen/AndroidNotes/blob/master/Android_Basis/pictures/fresco.png)
 
 几个优秀的开源库都是按照这个顺序执行的，比如 Picasso,Universal Image Loader,Glide和 Volley等等。上面这些开源库为Android的发展做出了非常重要的贡献。我们相信Fresco在几个重要方面会表现的更好。
 我们的不同之处在于把上面的这些步骤看作是管道，而不仅仅是加载器。每一个步骤和其他方面应该是尽可能独立的，把数据和参数传递进去，然后产生一个 输出，就这么简单。它应该可以做一些操作，不管是并行还是串行。一些操作只能在特性条件下才能执行。一些有特殊要求的在线程上执行。除此之外，当我们考虑 改进图像的时候，所有的图片就会变得非常复杂。很多人在低网速情况下使用Facebook，我们想要这些人能够尽快的看到图片，甚至经常是在图片没有完全 下载完之前。
